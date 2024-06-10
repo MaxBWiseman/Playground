@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
-    max-height: 450px;
+    max-height: 510px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,7 @@ body {
 .controls-area {
     width: 85%;
     margin: 30px auto;
+    
 }
 
 #score {
@@ -98,15 +99,16 @@ body {
 }
 
 .btn--big {
-    padding-top: 10px;
+    padding-top: 13px;
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
     width: 100px;
     height: 100px;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     margin: 0 30px;
     transition: all 0.5s;
+    margin-bottom: 20px
 }
 
 .btn--big::after{
